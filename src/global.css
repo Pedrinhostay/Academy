@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #090909;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+.links{
+    color: #e4e4e4;
+    text-transform: uppercase;
+    transition: 300ms all linear;
+}
+.archor{
+    color: #e4e4e4;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.logo{
+    font-size: 4rem;
+}
+.logo span{
+    font-size: 2rem;
+    color: #e46161;
+    font-weight: 500;
+}
+.links:hover{
+    color: #e46161;
+}

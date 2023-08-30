@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Musculação",
+        "description": "A musculação ajuda a diminuir o percentual de gordura, a treinar o coração para esforços mais intensos, aumenta a força, melhora os aspectos cognitivos, aumenta a resistência do sistema imunológico e muito mais.",
+        "url": "/musculação"
+    },
+    {
+        "id": 2,
+        "title": "Zumba",
+        "description": "Zumba é uma atividade esportiva. Ele é executado ao ritmo da música latina, misturando exercício aeróbico com dança.",
+        "url": "/zumba"
+    },
+    {
+        "id": 3,
+        "title": "Muay-thai",
+        "description": "O muay thai exige disciplina e postura, trabalha autocontrole, melhora condicionamento físico e promove ganho de massa muscular. Não para por aí.",
+        "url": "/luta"
+    }
+]
