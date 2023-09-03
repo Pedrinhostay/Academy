@@ -1,7 +1,8 @@
+import MuscleSection from "../components/Muscle/MuscleSection.jsx";
 
 
-export default function Muscalação() {
+export default function Muscle() {
   return (
-    <div>Muscalação</div>
+    <MuscleSection/>
   )
 }
