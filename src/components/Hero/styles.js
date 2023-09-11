@@ -8,7 +8,7 @@ export const Content = styled.div`
   max-width: 1330px;
   text-align: center;
   gap: 5rem;
-  margin: 0 auto;
+  margin: 6rem auto;
   position: relative;
 `
 export const Social = styled.aside`

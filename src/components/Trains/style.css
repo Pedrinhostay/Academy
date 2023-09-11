@@ -66,7 +66,7 @@
     font-size: 1.3rem;
     color: #e4e4e4;
     font-weight: 400;
-    padding: 1rem;
+    padding: 3rem;
     margin: 0rem 3rem;
 }
 .active-content{
@@ -75,7 +75,6 @@
     width: 100%;
     border-radius: 16px;
     margin: 2rem auto;
-    background: linear-gradient(#090909,rgb(0,0,0,0.5));
 }
 img{
     margin-top: 2rem;

@@ -1,15 +1,16 @@
-import { Link } from "react-router-dom"
-import {Container,Menu,Navigation} from "./styles"
-import {BiMenu} from "react-icons/bi"
+import { Container } from './styles';
+import { IoClose } from 'react-icons/io5';
+import { useEffect } from 'react';
 
-export default function Header({ setMenuIsVisible }) {
-
+export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
+  useEffect(() => {
+    document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
+  }, [menuIsVisible]);
 
   return (
-    <Container >
-        <Navigation>
-            <Link className="links logo" to="/">Sport<span>Nutrition</span></Link>
-          <ul>
+    <Container isVisible={menuIsVisible}>
+      <IoClose size={45} onClick={() => setMenuIsVisible(false)}/>
+      <ul>
             <li><a href="#header">Inicio</a></li>
             <li><a href="#services">Serviços</a></li>
             <li><a href="#train">Treinos</a></li>
@@ -18,8 +19,6 @@ export default function Header({ setMenuIsVisible }) {
             <li><a href="#personal">Professores</a></li>
             <li><a href="#about">Sobre Nós</a></li>
           </ul>
-          <Menu onClick={() => setMenuIsVisible(true)}><BiMenu/></Menu>
-          </Navigation>
     </Container>
   )
 }

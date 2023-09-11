@@ -9,6 +9,7 @@ body{
     background-color: #090909;
 }
 html{
+    scroll-behavior: smooth;
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
 }
@@ -33,3 +34,8 @@ html{
 .links:hover{
     color: #e46161;
 }
+
+
+
+
+

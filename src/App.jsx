@@ -8,6 +8,7 @@ import Services from "./pages/Services.jsx";
 import Muscle from "./pages/Muscle.jsx";
 import Fight from "./pages/Fight.jsx";
 import Zumb from "./pages/Zumb.jsx";
+import Blog from "./pages/Blog.jsx";
 
 const router = createBrowserRouter([
     {
@@ -36,7 +37,12 @@ const router = createBrowserRouter([
             element: <Fight/>
           }
         ]
-    },]
+    },
+    {
+      path: '/blog',
+      element: <Blog/>
+    }
+  ]
 );
 
 export default router;
